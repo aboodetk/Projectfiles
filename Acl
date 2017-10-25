@@ -1,3 +1,9 @@
 
 Extended IP access list 100
     10 permit ip 0.0.0.0 255.255.255.0 any
+Extended IP access list 101
+    10 permit tcp any any
+Extended IP access list spam
+    10 permit eigrp any any
+    20 permit ip any any
+    30 permit 22 any any
